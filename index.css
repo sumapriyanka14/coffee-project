@@ -1,0 +1,156 @@
+.container {
+  display: flex;
+  background-image: url(https://www.shutterstock.com/image-vector/hot-coffee-beans-background-3d-260nw-1115672807.jpg);
+  justify-content: space-around;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav h1 {
+  color: rgb(248, 244, 244);
+  font-style: inherit;
+}
+
+nav a .icon {
+  color: white;
+}
+
+nav button {
+  width: 20%;
+  height: 30px;
+  text-align: start;
+  border-radius: 10px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+}
+
+.card-item {
+  display: grid;
+  background-color: rgb(37, 25, 1);
+  justify-content: space-between;
+  flex-wrap: wrap;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+  min-width: 200px;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.item {
+  display: grid;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 10px;
+  border: 1px solid rgb(180, 177, 177);
+  border-radius: 5px;
+}
+
+.item img {
+  display: flex;
+  align-items: center;
+  padding: 1px;
+  height: 300px;
+  width: 300px;
+}
+
+.item h3 {
+  color: rgb(253, 253, 253);
+  font-size: x-large;
+  font-weight: bold;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.item p {
+  color: rgb(255, 253, 253);
+  padding-top: 1px;
+  font-weight: lighter;
+}
+
+.item button {
+  justify-content: center;
+  background-color: rgb(252, 253, 252);
+  color: rgb(5, 5, 5);
+  font: 500;
+  padding: 10px;
+  border-radius: 10px;
+  width: 50%;
+  border-style: none;
+}
+
+.item button:hover {
+  cursor: pointer;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  background-image: url(https://i.pinimg.com/originals/b3/2e/fe/b32efe78a99c7feb9cd717202a87c784.jpg);
+  background-size: contain;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+}
+
+.card img {
+  width: 700px;
+}
+
+.head {
+  font-size: xx-large;
+}
+
+.para {
+  font-size: medium;
+}
+
+.contact {
+  display: grid;
+  background-image: url(https://img.lxhausys.com/product/images/SolidSurface/HIMACS/Solid/S100_0000002816_0001.jpg);
+  background-position: cover;
+  background-size: contain;
+  align-items: center;
+}
+.contact-info{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 10rem;
+  padding-left: 80px;
+}
+.info {
+  display: grid;
+  text-align: center;
+}
+.info h5 {
+  font-weight: bolder;
+  font-size: large;
+  color: white;
+}
+.icon {
+  display: grid;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  margin-left: 500px;
+  padding:40px;
+}
+.icon i {
+  color: white;
+  font-size: 1rem;
+}
+.icon i:hover {
+  color: blue;
+}
+.icon p {
+  color: white;
+  display: grid;
+  text-decoration: underline;
+}
